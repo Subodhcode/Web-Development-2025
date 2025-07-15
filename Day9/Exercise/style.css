@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.main{
+    width: 1000px;
+    margin: auto;
+}
+.row1{
+    width:1000px ;
+    border: 2px solid blue;
+    height: 186px;
+    /* /* background-image: url(images/cat.jpeg); */
+    /* background-repeat: repeat-x; */ 
+    /* background: url(images/doggy.webp) no-repeat;
+    background-position:  center; */
+
+}
