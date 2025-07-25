@@ -1,6 +1,0 @@
-   /* /* background-image: url(images/cat.jpeg); */
-    /* background-repeat: repeat-x; */ 
-    /* background: url(images/doggy.webp) no-repeat;
-    background-position:  center; */
-
-    justify-content:flex-end | center | flex-start
