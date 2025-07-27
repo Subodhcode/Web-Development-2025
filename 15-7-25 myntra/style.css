@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    box-shadow: 0px 2px 10px 0px #ccc;
+}
+.headerleft{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.headerleft nav ul{
+    display: flex;
+    gap: 30px;
+    
+}
+.headerleft nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.headerright{
+    flex-grow: 1;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.headerright form{
+    flex-grow: 1;
+    display: flex;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    border-radius:5px ;
+}
+.headerright form button{
+    padding: 14px;
+    border: none;
+    background: transparent;
+}
+.headerright form input{
+    flex-grow: 1;
+    padding-left: 10px;
+    border: none;
+    background: transparent;
+}
+.profileicons{
+    flex-basis: 30%;
+    
+   
+}
+.profileicons ul{
+     display: flex;
+     gap: 15px;
+ 
+}
+.profileicons ul li{
+    display: flex;
+    flex-grow: 1;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;/*width*/
+    justify-content: center;/*height*/
+    
+}
+.profileicons ul li b{
+    font-size: 12px;
+}
