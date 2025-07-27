@@ -56,7 +56,6 @@ header{
 .profileicons{
     flex-basis: 30%;
     
-   
 }
 .profileicons ul{
      display: flex;
@@ -74,4 +73,43 @@ header{
 }
 .profileicons ul li b{
     font-size: 12px;
+}
+
+
+.bannersection{
+    width: 100%;
+    padding: 30px 0px;
+}
+.bannermid{
+    width: 1420px;
+    margin: auto;
+}
+.bannermid img{
+    width: 100%;
+}
+.offerbanner{
+    width: 1420px;
+    margin: auto;
+}
+.offerbanner img{
+    width: 100%;
+}
+.offerbannerImg{
+    display: flex;
+    width: 1420px;
+    margin: auto;
+    gap: 10px;
+    flex-grow: 1;
+}
+.offerbannerImg figure img{
+    width: 100%;
+
+}
+footer{
+    background:#f9fafb;
+    padding: 40px 0px;
+}
+.footermid{
+    width: 1080px;
+    margin: auto;
 }
