@@ -112,4 +112,91 @@ footer{
 .footermid{
     width: 1080px;
     margin: auto;
+    display: flex;
+    gap: 30px;
+
+}
+.footermidpart1{
+    flex-basis: 20%;
+}
+.footermidpart1 h4{
+    margin-bottom: 20px;
+}
+.footermidpart1 ul li{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+.footermidpart1 ul{
+    margin-bottom: 40px;
+}
+.footermidpart1 ul li a{
+    color: black;
+}
+
+.footermidpart1 .appstore{
+    display: flex;
+    gap: 8px;
+    
+}
+.footermidpart1 .appstore img{
+    width: 100%;
+
+}
+.appstore{
+}
+.appstore i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.footermid4part{
+    display: flex;
+    padding-bottom: 20px;
+    gap: 10px;
+    margin-left: 30px;
+}
+
+.footermid4part p{
+    font-size: 12px;
+}
+.footer-row3{
+    display: flex;
+    gap: 15px;
+    width: 1080px;
+    margin: auto;
+    margin-bottom: 25PX;
+}
+.line{
+    background: #ccc;
+    flex-grow: 1;
+    height: 2px;
+    margin-top: 5px;
+}
+
+.footer-row4{
+    width: 1080px;
+    margin: auto;
+    text-align: justify;
+    line-height: 23px;
+    padding-bottom: 40px;
+}
+
+.footer-row5{
+    display: flex;
+    width: 1080px;
+    margin: auto;
+    justify-content: space-between;
+}
+.productpage{
+    width: 100%;
+    padding: 30px 0px;
+  
+}
+.productitem{
+    display: flex;
+    width: 1420px; 
+    margin: auto;
+    gap: 10px;
+}
+.productitem figure img{ 
+    width: 100%;
 }
